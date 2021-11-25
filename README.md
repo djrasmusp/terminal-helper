@@ -3,7 +3,7 @@ Copy Public Key
 `pbcopy < ~/.ssh/id_rsa.pub`
 
 Make a tar.gz without ._ files
-`tar --disable-copyfile -czvf name_of_file.tar.gz *`
+`tar --disable-copyfile -czvf name_of_file.tar.gz path/to/directory`
 
 Uncompress a tar.gz
 `tar -xvzf name_of_file.tar.gz`
